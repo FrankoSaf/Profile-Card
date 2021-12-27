@@ -12,7 +12,9 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
     font-size:1.6rem;
     height:100vh;
-    
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     
 }
 main{
@@ -68,25 +70,4 @@ span{
 .socials p:last-of-type{
     font-size:1.1rem;
     letter-spacing:3px;
-}
-.top{
-    
-    position:fixed;
-    top:-70%;
-    right:40%;
-}
-.bottom{
-    position:fixed;
-   top:50%;
-   left:33%;
-}
-@media (min-width: 768px){
-    .top{
-        top:-60%;
-        right:50%;
-    }
-    .bottom{
-       top:50%;
-       left:50%;
-    }
 }
